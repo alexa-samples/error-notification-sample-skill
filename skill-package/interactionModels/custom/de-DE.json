@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "absturz monitor",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TimeoutIntent",
+                    "slots": [],
+                    "samples": [
+                        "time out",
+                        "ausgebliebene antwort",
+                        "ausgebleibende antwort",
+                        "eine ausgebleibende antwort",
+                        "die ausgebleibende antwort"
+                    ]
+                },
+                {
+                    "name": "InvalidResponseIntent",
+                    "slots": [],
+                    "samples": [
+                        "ungültige antwort",
+                        "die ungültige antwort",
+                        "eine ungültige antwort",
+                        "fehlerhafte antwort",
+                        "ungültige response"
+                    ]
+                },
+                {
+                    "name": "RuntimeErrorIntent",
+                    "slots": [],
+                    "samples": [
+                        "laufzeit fehler",
+                        "laufzeitfehler"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  

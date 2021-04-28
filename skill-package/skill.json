@@ -1,0 +1,105 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a demo Skill for monitoring a Skill's backend using an AWS SNS email alert. ",
+          "examplePhrases": [
+            "Alexa, open crash monitor",
+            "runtime error",
+            "invalid response"
+          ],
+          "smallIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_small.png",
+          "largeIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_large.png",
+          "name": "Crash Monitor",
+          "description": "This is a demo Skill for monitoring a Skill's backend using an AWS SNS email alert. You can trigger different error messages and learn to investigate them based on the email content."
+        },
+        "en-GB": {
+          "summary": "This is a demo Skill for monitoring a Skill's backend using an AWS SNS email alert. ",
+          "examplePhrases": [
+            "Alexa, open crash monitor",
+            "runtime error",
+            "invalid response"
+          ],
+          "smallIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_small.png",
+          "largeIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_large.png",
+          "name": "Crash Monitor",
+          "description": "This is a demo Skill for monitoring a Skill's backend using an AWS SNS email alert. You can trigger different error messages and learn to investigate them based on the email content."
+        },
+        "de-DE": {
+          "summary": "Dies ist ein Demo-Skill für das Monitoring des Skill-Backends mit einer SNS E-Mail-Benachrichtung",
+          "examplePhrases": [
+            "Alexa, starte Absturz Monitor",
+            "Laufzeitfehler",
+            "Ungültige Antwort"
+          ],
+          "smallIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_small.png",
+          "largeIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_large.png",
+          "name": "Absturz Monitor",
+          "description": "Dies ist ein Demo-Skill für das Monitoring des Skill-Backends mit einer SNS E-Mail-Benachrichtung"
+        },
+        "es-ES": {
+          "summary": "Esta es una skill de demostración para monitorear el backend de una skill usando alertas de correo electrónico de AWS SNS.",
+          "examplePhrases": [
+            "Alexa, abre monitor de fallos",
+            "Repuesta inválida",
+            "Interrupción"
+          ],
+          "smallIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_small.png",
+          "largeIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_large.png",
+          "name": "Monitor De Fallos",
+          "description": "Esta es una skill de demostración para monitorear el backend de una skill usando alertas de correo electrónico de AWS SNS. Puedes activar diferentes mensajes de error y conocer más detalles en función del contenido del correo electrónico."
+        },
+        "es-MX": {
+          "summary": "Esta es una skill de demostración para monitorear el backend de una skill usando alertas de correo electrónico de AWS SNS.",
+          "examplePhrases": [
+            "Alexa, abre monitor de fallos",
+            "Repuesta inválida",
+            "Interrupción"
+          ],
+          "smallIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_small.png",
+          "largeIconUri": "https://skillicons.s3.amazonaws.com/errorNotification_large.png",
+          "name": "Monitor De Fallos",
+          "description": "Esta es una skill de demostración para monitorear el backend de una skill usando alertas de correo electrónico de AWS SNS. Puedes activar diferentes mensajes de error y conocer más detalles en función del contenido del correo electrónico."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "NOVELTY",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "de-DE": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        },
+        "en-US": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        },
+        "es-ES": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        },
+        "es-MX": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        }
+      }
+    }
+  }
+}

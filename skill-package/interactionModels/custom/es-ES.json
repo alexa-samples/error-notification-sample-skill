@@ -1,0 +1,59 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "monitor de fallos",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TimeoutIntent",
+                    "slots": [],
+                    "samples": [
+                        "interrupción",
+                        "tiempo agotado",
+                        "error de interrupción",
+                        "error de tiempo agotado",
+                        "respuesta de interrupción",
+                        "respuesta faltante"
+                    ]
+                },
+                {
+                    "name": "InvalidResponseIntent",
+                    "slots": [],
+                    "samples": [
+                        "inválido'",
+                        "repuesta inválida",
+                        "mala respuesta"
+                    ]
+                },
+                {
+                    "name": "RuntimeErrorIntent",
+                    "slots": [],
+                    "samples": [
+                        "error en tiempo de ejecución",
+                        "excepción en tiempo de ejecución"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }
